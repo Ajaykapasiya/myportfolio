@@ -154,7 +154,7 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-      //img: newtonschoolLogo,
+     // img: newtonschoolLogo,
       role: "Frontend Intern",
       company: "Newton School",
       date: "September 2021 - August 2022",
