@@ -22,10 +22,28 @@ const Contact = () => {
           Connect With Me <span className="ml-1">🚀</span>
         </h3>
 
-     <form>
-      <input type="email" name="your email" placeholder="Your Email" required
-      
+     <form className="mt-4 flex flex-col space-y-4">
+      <input type="email" name="your_email" placeholder="Your Email" required
+      className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
       />
+
+      <input type="text"
+      name="user_name"
+      placeholder="Your Name" 
+      className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
+      />
+
+      <textarea name="message" placeholder="Message"  rows={5} required
+      className="w-full p-3 rounded-md bg-[#131025] text-white border border-gray-600 focus:outline-none focus:border-purple-500"
+      >
+     </textarea>
+     
+     {/* Send Button */}
+     <button type="sumbit"
+      className="w-full bg-gradient-to-r from-purple-600 to-pink-600 py-3 text-white font-semibold rounded-md hover:opacity-90 transition">
+      Send
+      </button>
+
      </form>
 
       </div>
