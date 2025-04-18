@@ -215,7 +215,7 @@ export const SkillsInfo = [
       title: "GitHub Profile Detective",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      //image: githubdetLogo,
+      image:github_det.png,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
       github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
       webapp: "https://githubprofiledetective.netlify.app/",
