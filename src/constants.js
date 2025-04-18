@@ -47,13 +47,13 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
-//import csprepLogo from './assets/work_logo/cs_prep.png';
+import csprepLogo from './assets/work_logo/cs_prep.png';
 //import movierecLogo from './assets/work_logo/movie_rec.png';
 //import taskremLogo from './assets/work_logo/task_rem.png';
 //import npmLogo from './assets/work_logo/npm.png';
 //import webverLogo from './assets/work_logo/web_dig.png';
-//import cmLogo from './assets/work_logo/cm.png';
-//import imagesearchLogo from './assets/work_logo/image_search.png';
+import cmLogo from './assets/work_logo/cm.png';
+import imagesearchLogo from './assets/work_logo/image_search.png';
 //import removebgLogo from './assets/work_logo/remove_bg.png';
 
 
@@ -174,39 +174,39 @@ export const SkillsInfo = [
     {
       id: 0,
       //img: glaLogo,
-      //school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
+      school: "GNIOT , Greater Noida",
+      date: " 2021 - 2025",
+      //grade: "7.71 CGPA",
       desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      degree: "Bachelor of Technology - B.tech",
     },
     {
       id: 1,
       //img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
+      school: "MRL Senior Secondary school, Delhi",
+      date: "2020 -  2021",
+      //grade: "73.2%",
       desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
-    },
-    {
-      id: 2,
-      //img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
       degree: "CBSE(XII) - PCM with Computer Science",
     },
-    {
-      id: 3,
-      //img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
-    },
+    //{
+    //  id: 2,
+    //  //img: vpsLogo,
+    //  school: "Vatsalya Public School Govardhan, Mathura",
+    //  date: "Apr 2017 - March 2018",
+    //  grade: "78%",
+    //  desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
+    //  degree: "CBSE(XII) - PCM with Computer Science",
+    //},
+    //{
+    //  id: 3,
+    //  //img: vpsLogo,
+    //  school: "Vatsalya Public School Govardhan, Mathura",
+    //  date: "Apr 2015 - March 2016",
+    //  grade: "87.5%",
+    //  desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
+    //  degree: "CBSE(X), Science with Computer Application",
+    //},
   ];
   
   export const projects = [
@@ -225,7 +225,7 @@ export const SkillsInfo = [
       title: "CS Prep",
       description:
         "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      //image: csprepLogo,
+      image: csprepLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/codingmastr/CSPrep",
       webapp: "https://csprep.netlify.app/",
@@ -275,7 +275,7 @@ export const SkillsInfo = [
       title: "Coding Master",
       description:
         "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      //image: cmLogo,
+      image: cmLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
       github: "https://codingmasterweb.in/",
       webapp: "https://codingmasterweb.in/",
@@ -285,7 +285,7 @@ export const SkillsInfo = [
       title: "Image Search App",
       description:
         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      //image: imagesearchLogo,
+      image: imagesearchLogo,
       tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
       github: "https://github.com/codingmastr/Image-Search-App",
       webapp: "https://imagsearch.netlify.app/",

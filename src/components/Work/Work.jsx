@@ -2,16 +2,15 @@ import React, { useState } from "react";
 import { projects } from "../../constants";
 
 const Work = () => {
-  
-  const [selectProject ,setSelectProject] = useState(null)
+  const [selectProject, setSelectProject] = useState(null);
 
   const handleOpenModel = (project) => {
-    setSelectProject(project)
-   };
+    setSelectProject(project);
+  };
 
   const handleCloseModel = (project) => {
     setSelectProject(null);
-  }
+  };
 
   return (
     <section
@@ -54,16 +53,15 @@ const Work = () => {
                 </p>
 
                 <div className=" text-purple mb-4">
-                  {project.tags.map((tag , index ) =>
-                   (
-                      <span 
+                  {project.tags.map((tag, index) => (
+                    <span
                       key={index}
                       className="inline-block bg-[#251f38] text-xs font-semibold text-purple-500 rounded-full px-2 py-1 mr-2 mb-2"
-                      >
-                        {tag}
-                      </span>
-                   ))}
-                  </div>
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
           );
@@ -74,17 +72,55 @@ const Work = () => {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
           <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative ">
             <div className="flex justify-end p-4">
-              <button 
-              onClick={handleCloseModel}
-              className=" text-white text-3xl font-bold hover:text-purple-500"
+              <button
+                onClick={handleCloseModel}
+                className=" text-white text-3xl font-bold hover:text-purple-500"
               >
-
+                &times;
               </button>
+            </div>
+            <div className="flex flex-col">
+              <div className="w-full flex justify-center bg-gray-900 px-4">
+                <img
+                  src={selectProject.image}
+                  alt={selectProject.title}
+                  className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
+                />
+              </div>
+              <div className="lg:p-8 p-6">
+                <h3 className="lg:text-3xl text-white font-bold mb-4 text-md">
+                  {selectProject.title}
+                </h3>
+                <p className="text-xs text-gray-400 mb-6 lg:text-base ">
+                  {selectProject.description}
+                </p>
+                <div className="flex flex-wrap gap-2 mb-6">
+                  {selectProject.tags.map((tag, index) => (
+                    <span
+                      key={index}
+                      className=" bg-[#251f38] text-xl font-semibold text-purple-500 rounded-full px-2 py-1 "
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex gap-4">
+                   <a href={selectProject.github} target="_blank" rel="noopener noreferrer" 
+                   className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"                   
+                   >
+                    View Code
+                   </a>
+                   <a href={selectProject.webapp} target="_blank" rel="noopener noreferrer"
+                   className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                   >
+                    View Live
+                   </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       )}
-    
     </section>
   );
 };
