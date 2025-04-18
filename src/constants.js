@@ -14,7 +14,7 @@ import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 //import materialuiLogo from './assets/tech_logo/materialui.png';
 //import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 //import springbootLogo from './assets/tech_logo/springboot.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
+//import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
@@ -46,7 +46,7 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 //import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
-//import githubdetLogo from './assets/work_logo/github_det.png';
+import githubdetLogo from './assets/work_logo/github_det.png';
 //import csprepLogo from './assets/work_logo/cs_prep.png';
 //import movierecLogo from './assets/work_logo/movie_rec.png';
 //import taskremLogo from './assets/work_logo/task_rem.png';
@@ -215,7 +215,7 @@ export const SkillsInfo = [
       title: "GitHub Profile Detective",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image:github_det.png,
+      image: githubdetLogo,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
       github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
       webapp: "https://githubprofiledetective.netlify.app/",
