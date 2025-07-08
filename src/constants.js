@@ -56,8 +56,9 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 //import imagesearchLogo from './assets/work_logo/image_search.png';
 //import removebgLogo from './assets/work_logo/remove_bg.png';
 
-import EMS from './assets/work_logo/Employee-management-system.png';
-
+import EmployeeManagementSystem from './assets/work_logo/Employee-management-system.png';
+import YouTubeClone from './assets/work_logo/YouTube_clone.png';
+import BrandPage from './assets/work_logo/Brand_page.png'
 
 export const SkillsInfo = [
   {
@@ -68,7 +69,7 @@ export const SkillsInfo = [
       //{ name: 'SASS', logo: sassLogo },
      // { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
+      //{ name: 'Angular', logo: angularLogo },
       //{ name: 'Redux', logo: reduxLogo },
       //{ name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
@@ -82,9 +83,9 @@ export const SkillsInfo = [
     skills: [
       //{ name: 'Springboot', logo: springbootLogo },
       //{ name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
+      //{ name: 'Express JS', logo: expressjsLogo },
+      //{ name: 'MySQL', logo: mysqlLogo },
+      //{ name: 'MongoDB', logo: mongodbLogo },
      // { name: 'Firebase', logo: firebaseLogo },
      // { name: 'PostgreSQL', logo: postgreLogo },
     ],
@@ -95,7 +96,7 @@ export const SkillsInfo = [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
       //{ name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
+      //{ name: 'Python', logo: pythonLogo },
       //{ name: 'C-Sharp', logo: csharpLogo },
       //{ name: 'JavaScript', logo: javascriptLogo },
       //{ name: 'TypeScript', logo: typescriptLogo },
@@ -217,29 +218,29 @@ export const SkillsInfo = [
       title: "Employee Management System",
       description:
         "This is a React-based Employee Management System with role-based dashboards for admins and employees to manage and track tasks within an organization.",
-     image: "Employee-management-system.png",
-      tags: [""],
-      github: "",
+     image: EmployeeManagementSystem,
+      tags: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
+      github: "https://github.com/Ajaykapasiya/employee-management-system",
       webapp: "",
     },
     {
       id: 1,
-      title: "",
+      title: " YouTube Clone",
       description:
-        "",
-      image: "",
-      tags: [""],
-      github: "",
+        "This project is a YouTube clone built with React and Vite, featuring video search, playback, and browsing functionality using the YouTube API via RapidAPI.",
+      image: YouTubeClone,
+      tags: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS", "RapidAPI"],
+      github: "https://github.com/Ajaykapasiya/yt-clone",
       webapp: "",
     },
     {
       id: 2,
-      title: "",
+      title: "Brand Page",
       description:
-        "",
-      //image: movierecLogo,
-      tags: [""],
-      github: "",
+        "This is a modern, responsive shoe brand landing page with a clean design, featuring a navigation header, hero section with call-to-action buttons, and shopping platform integration indicators.",
+      image: BrandPage,
+      tags: ["HTML", "CSS" ,"JavaScript"],
+      github: "https://github.com/Ajaykapasiya/Brand-page",
       webapp: "",
     },
     {

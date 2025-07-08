@@ -27,7 +27,7 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'coder',
-                'Fullstack Developer',
+                'Frontend Developer',
                 
               ]}
               speed={100}
