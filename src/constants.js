@@ -243,7 +243,7 @@ export const SkillsInfo = [
       github: "https://github.com/Ajaykapasiya/Brand-page",
       webapp: "",
     },
-    {
+    /*{
       id: 3,
      title: "",
      description:
@@ -282,7 +282,7 @@ export const SkillsInfo = [
       tags: [""],
       github: "",
       webapp: "",
-    },
+    },*/
     
   ];  
 
