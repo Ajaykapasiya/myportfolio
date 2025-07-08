@@ -46,15 +46,17 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 //import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
+//import githubdetLogo from './assets/work_logo/github_det.png';
+//import csprepLogo from './assets/work_logo/cs_prep.png';
 //import movierecLogo from './assets/work_logo/movie_rec.png';
 //import taskremLogo from './assets/work_logo/task_rem.png';
 //import npmLogo from './assets/work_logo/npm.png';
 //import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
+//import cmLogo from './assets/work_logo/cm.png';
+//import imagesearchLogo from './assets/work_logo/image_search.png';
 //import removebgLogo from './assets/work_logo/remove_bg.png';
+
+import EMS from './assets/work_logo/Employee-management-system.png';
 
 
 export const SkillsInfo = [
@@ -212,10 +214,10 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "",
+      title: "Employee Management System",
       description:
-        "",
-     image: "",
+        "This is a React-based Employee Management System with role-based dashboards for admins and employees to manage and track tasks within an organization.",
+     image: "Employee-management-system.png",
       tags: [""],
       github: "",
       webapp: "",
@@ -275,7 +277,7 @@ export const SkillsInfo = [
       title: "",
       description:
         "",
-      //image: cmLogo,
+      image: "",
       tags: [""],
       github: "",
       webapp: "",
