@@ -252,7 +252,7 @@ export const SkillsInfo = [
      image: SpotifyClone,
     tags: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS"],
     github: "https://github.com/Ajaykapasiya/spofity-clone",
-    webapp: "",
+    webapp: "https://spofity-clone-tzml.vercel.app/",
     },
     /*{
       id: 4,
