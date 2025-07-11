@@ -58,7 +58,8 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 
 import EmployeeManagementSystem from './assets/work_logo/Employee-management-system.png';
 import YouTubeClone from './assets/work_logo/YouTube_clone.png';
-import BrandPage from './assets/work_logo/Brand_page.png'
+import BrandPage from './assets/work_logo/Brand_page.png';
+import SpotifyClone from './assets/work_logo/Spotify_clone.png';
 
 export const SkillsInfo = [
   {
@@ -243,17 +244,17 @@ export const SkillsInfo = [
       github: "https://github.com/Ajaykapasiya/Brand-page",
       webapp: "",
     },
-    /*{
+    {
       id: 3,
-     title: "",
+     title: "Spotify-Clone",
      description:
-        "",
-     //image: npmLogo,
-    tags: [""],
-    github: "",
+        "This is a Spotify Clone built with React and Vite that replicates the core features of Spotify's web interface, including music playback, playlist browsing, and navigation.",
+     image: SpotifyClone,
+    tags: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS"],
+    github: "https://github.com/Ajaykapasiya/spofity-clone",
     webapp: "",
     },
-    {
+    /*{
       id: 4,
       title: "",
      description:
