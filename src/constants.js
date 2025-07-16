@@ -231,11 +231,11 @@ export const SkillsInfo = [
       id: 1,
       title: "Country_Hub",
      description:
-        "Country Hub is a modern React-based web application that provides an interactive world atlas experience. Users can explore detailed information about countries worldwide, including population, region, capital, and flags, with powerful search and filtering capabilities. The application features a clean, responsive design with a dark theme and gradient accents, offering both a homepage preview of featured countries and a comprehensive country directory. Built with React Router for seamless navigation and Axios for API integration, it delivers real-time country data from the REST Countries API in an engaging, user-friendly interface.",
-    image: CountryHub,
+        "Country Hub is a modern React web app offering an interactive world atlas with country details like population, region, capital, and flags It features search, filtering, dark theme with gradients, and a responsive design for smooth user experience Built using React Router and Axios, it fetches real-time data from the REST Countries API for seamless navigation and update",
+    image:CountryHub ,
      tags: ["HTML", "CSS","JavaScript", "React", "Axios", "REST Countries API"],
      github: "https://github.com/Ajaykapasiya/Country_hub",
-     webapp: "country-hub-pi.vercel.app",
+     webapp: "https://country-hub-pi.vercel.app",
     },
 
      
