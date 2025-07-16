@@ -212,26 +212,28 @@ export const SkillsInfo = [
     //  degree: "CBSE(X), Science with Computer Application",
     //},
   ];
+
+   
   
   export const projects = [
     {
       id: 0,
-      title: "Employee Management System",
-      description:
-        "This is a React-based Employee Management System with role-based dashboards for admins and employees to manage and track tasks within an organization.",
-     image: EmployeeManagementSystem,
-      tags: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
-      github: "https://github.com/Ajaykapasiya/employee-management-system",
-      webapp: "",
-    },
-    {
-      id: 1,
       title: " YouTube Clone",
       description:
         "This project is a YouTube clone built with React and Vite, featuring video search, playback, and browsing functionality using the YouTube API via RapidAPI.",
       image: YouTubeClone,
       tags: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS", "RapidAPI"],
       github: "https://github.com/Ajaykapasiya/yt-clone",
+      webapp: "",
+    },
+    {
+     id: 1,
+      title: "Employee Management System",
+      description:
+        "This is a React-based Employee Management System with role-based dashboards for admins and employees to manage and track tasks within an organization.",
+     image: EmployeeManagementSystem,
+      tags: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
+      github: "https://github.com/Ajaykapasiya/employee-management-system",
       webapp: "",
     },
     {
