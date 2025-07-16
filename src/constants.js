@@ -227,10 +227,20 @@ export const SkillsInfo = [
       github: "https://github.com/Ajaykapasiya/yt-clone",
       webapp: "",
     },
+    {
+      id: 1,
+      title: "Country_Hub",
+     description:
+        "Country Hub is a modern React-based web application that provides an interactive world atlas experience. Users can explore detailed information about countries worldwide, including population, region, capital, and flags, with powerful search and filtering capabilities. The application features a clean, responsive design with a dark theme and gradient accents, offering both a homepage preview of featured countries and a comprehensive country directory. Built with React Router for seamless navigation and Axios for API integration, it delivers real-time country data from the REST Countries API in an engaging, user-friendly interface.",
+    image: CountryHub,
+     tags: ["HTML", "CSS","JavaScript", "React", "Axios", "REST Countries API"],
+     github: "https://github.com/Ajaykapasiya/Country_hub",
+     webapp: "country-hub-pi.vercel.app",
+    },
 
      
     {
-     id: 3,
+     id: 2,
      title: "Spotify-Clone",
      description:
         "This is a Spotify Clone built with React and Vite that replicates the core features of Spotify's web interface, including music playback, playlist browsing, and navigation.",
@@ -240,7 +250,7 @@ export const SkillsInfo = [
     webapp: "https://spofity-clone-tzml.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Brand Page",
       description:
         "This is a modern, responsive shoe brand landing page with a clean design, featuring a navigation header, hero section with call-to-action buttons, and shopping platform integration indicators.",
@@ -250,7 +260,7 @@ export const SkillsInfo = [
       webapp: "",
     },
     {
-     id: 1,
+     id: 4,
       title: "Employee Management System",
       description:
         "This is a React-based Employee Management System with role-based dashboards for admins and employees to manage and track tasks within an organization.",
@@ -259,16 +269,7 @@ export const SkillsInfo = [
       github: "https://github.com/Ajaykapasiya/employee-management-system",
       webapp: "",
     },
-    {
-      id: 4,
-      title: "Country_hub",
-     description:
-        "Country Hub is a modern React-based web application that provides an interactive world atlas experience. Users can explore detailed information about countries worldwide, including population, region, capital, and flags, with powerful search and filtering capabilities. The application features a clean, responsive design with a dark theme and gradient accents, offering both a homepage preview of featured countries and a comprehensive country directory. Built with React Router for seamless navigation and Axios for API integration, it delivers real-time country data from the REST Countries API in an engaging, user-friendly interface.",
-    image: CountryHub,
-     tags: ["HTML", "CSS","JavaScript", "React", "Axios", "REST Countries API"],
-     github: "https://github.com/Ajaykapasiya/Country_hub",
-     webapp: "country-hub-pi.vercel.app",
-    },
+    
     /*{
       id: 5,
      title: "",
