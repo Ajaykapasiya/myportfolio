@@ -6,7 +6,7 @@ import cssLogo from './assets/tech_logo/css.png';
 //import sassLogo from './assets/tech_logo/sass.png';
 //import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
-import angularLogo from './assets/tech_logo/angular.png';
+//import angularLogo from './assets/tech_logo/angular.png';
 //import reduxLogo from './assets/tech_logo/redux.png';
 //import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
@@ -15,14 +15,14 @@ import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 //import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 //import springbootLogo from './assets/tech_logo/springboot.png';
 //import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
-import mysqlLogo from './assets/tech_logo/mysql.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
+//import expressjsLogo from './assets/tech_logo/express.png';
+//import mysqlLogo from './assets/tech_logo/mysql.png';
+//import mongodbLogo from './assets/tech_logo/mongodb.png';
 //import firebaseLogo from './assets/tech_logo/firebase.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 //import javaLogo from './assets/tech_logo/java.png';
-import pythonLogo from './assets/tech_logo/python.png';
+//import pythonLogo from './assets/tech_logo/python.png';
 //import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
@@ -60,6 +60,7 @@ import EmployeeManagementSystem from './assets/work_logo/Employee-management-sys
 import YouTubeClone from './assets/work_logo/YouTube_clone.png';
 import BrandPage from './assets/work_logo/Brand_page.png';
 import SpotifyClone from './assets/work_logo/Spotify_clone.png';
+import CountryHub from './assets/work_logo/Country_hub.png';
 
 export const SkillsInfo = [
   {
@@ -256,17 +257,17 @@ export const SkillsInfo = [
     github: "https://github.com/Ajaykapasiya/spofity-clone",
     webapp: "https://spofity-clone-tzml.vercel.app/",
     },
-    /*{
+    {
       id: 4,
-      title: "",
+      title: "Country_hub",
      description:
-        "",
-    //image: taskremLogo,
+        "Country Hub is a modern React-based web application that provides an interactive world atlas experience. Users can explore detailed information about countries worldwide, including population, region, capital, and flags, with powerful search and filtering capabilities. The application features a clean, responsive design with a dark theme and gradient accents, offering both a homepage preview of featured countries and a comprehensive country directory. Built with React Router for seamless navigation and Axios for API integration, it delivers real-time country data from the REST Countries API in an engaging, user-friendly interface.",
+    image: CountryHub,
      tags: [""],
      github: "",
      webapp: "",
     },
-    {
+    /*{
       id: 5,
      title: "",
      description:
