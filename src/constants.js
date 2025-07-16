@@ -227,15 +227,17 @@ export const SkillsInfo = [
       github: "https://github.com/Ajaykapasiya/yt-clone",
       webapp: "",
     },
+
+     
     {
-     id: 1,
-      title: "Employee Management System",
-      description:
-        "This is a React-based Employee Management System with role-based dashboards for admins and employees to manage and track tasks within an organization.",
-     image: EmployeeManagementSystem,
-      tags: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
-      github: "https://github.com/Ajaykapasiya/employee-management-system",
-      webapp: "",
+     id: 3,
+     title: "Spotify-Clone",
+     description:
+        "This is a Spotify Clone built with React and Vite that replicates the core features of Spotify's web interface, including music playback, playlist browsing, and navigation.",
+     image: SpotifyClone,
+    tags: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS"],
+    github: "https://github.com/Ajaykapasiya/spofity-clone",
+    webapp: "https://spofity-clone-tzml.vercel.app/",
     },
     {
       id: 2,
@@ -248,14 +250,14 @@ export const SkillsInfo = [
       webapp: "",
     },
     {
-      id: 3,
-     title: "Spotify-Clone",
-     description:
-        "This is a Spotify Clone built with React and Vite that replicates the core features of Spotify's web interface, including music playback, playlist browsing, and navigation.",
-     image: SpotifyClone,
-    tags: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS"],
-    github: "https://github.com/Ajaykapasiya/spofity-clone",
-    webapp: "https://spofity-clone-tzml.vercel.app/",
+     id: 1,
+      title: "Employee Management System",
+      description:
+        "This is a React-based Employee Management System with role-based dashboards for admins and employees to manage and track tasks within an organization.",
+     image: EmployeeManagementSystem,
+      tags: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
+      github: "https://github.com/Ajaykapasiya/employee-management-system",
+      webapp: "",
     },
     {
       id: 4,
