@@ -1,3 +1,5 @@
+
+
 // Skills Section Logo's
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
@@ -54,12 +56,11 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 //import imagesearchLogo from './assets/work_logo/image_search.png';
 //import removebgLogo from './assets/work_logo/remove_bg.png';
 
-// Comment out problematic imports temporarily
-// import EmployeeManagementSystem from './assets/work_logo/Employee-management-system.png';
-// import YouTubeClone from './assets/work_logo/YouTube_clone.png';
-// import BrandPage from './assets/work_logo/Brand_page.png';
-// import SpotifyClone from './assets/work_logo/Spotify_clone.png';
-// import CountryHub from './assets/work_logo/Country_hub.png';
+import EmployeeManagementSystem from './assets/work_logo/Employee-management-system.png';
+import YouTubeClone from './assets/work_logo/YouTube_clone.png';
+import BrandPage from './assets/work_logo/Brand_page.png';
+import SpotifyClone from './assets/work_logo/Spotify_clone.png';
+import CountryHub from './assets/work_logo/Country_hub.png';
 
 export const SkillsInfo = [
   {
@@ -218,9 +219,10 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "YouTube Clone",
-      description: "This project is a YouTube clone built with React and Vite, featuring video search, playback, and browsing functionality using the YouTube API via RapidAPI.",
-      image: "https://via.placeholder.com/400x250?text=YouTube+Clone", // Placeholder
+      title: " YouTube Clone",
+      description:
+        "This project is a YouTube clone built with React and Vite, featuring video search, playback, and browsing functionality using the YouTube API via RapidAPI.",
+      image: YouTubeClone,
       tags: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS", "RapidAPI"],
       github: "https://github.com/Ajaykapasiya/yt-clone",
       webapp: "",
@@ -228,39 +230,68 @@ export const SkillsInfo = [
     {
       id: 1,
       title: "Country_Hub",
-      description: "Country Hub is a modern React web app offering an interactive world atlas with country details like population, region, capital, and flags.",
-      image: "https://via.placeholder.com/400x250?text=Country+Hub", // Placeholder
-      tags: ["HTML", "CSS","JavaScript", "React", "Axios", "REST Countries API"],
-      github: "https://github.com/Ajaykapasiya/Country_hub",
-      webapp: "https://country-hub-pi.vercel.app/",
+     description:
+        "Country Hub is a modern React web app offering an interactive world atlas with country details like population, region, capital, and flags It features search, filtering, dark theme with gradients, and a responsive design for smooth user experience Built using React Router and Axios, it fetches real-time data from the REST Countries API for seamless navigation and update",
+    image:CountryHub ,
+     tags: ["HTML", "CSS","JavaScript", "React", "Axios", "REST Countries API"],
+     github: "https://github.com/Ajaykapasiya/Country_hub",
+     webapp: "https://country-hub-pi.vercel.app",
     },
+
+     
     {
-      id: 2,
-      title: "Spotify-Clone",
-      description: "This is a Spotify Clone built with React and Vite that replicates the core features of Spotify's web interface, including music playback, playlist browsing, and navigation.",
-      image: "https://via.placeholder.com/400x250?text=Spotify+Clone", // Placeholder
-      tags: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS"],
-      github: "https://github.com/Ajaykapasiya/spofity-clone",
-      webapp: "https://spofity-clone-tzml.vercel.app/",
+     id: 2,
+     title: "Spotify-Clone",
+     description:
+        "This is a Spotify Clone built with React and Vite that replicates the core features of Spotify's web interface, including music playback, playlist browsing, and navigation.",
+     image: SpotifyClone,
+    tags: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS"],
+    github: "https://github.com/Ajaykapasiya/spofity-clone",
+    webapp: "https://spofity-clone-tzml.vercel.app/",
     },
     {
       id: 3,
       title: "Brand Page",
-      description: "This is a modern, responsive shoe brand landing page with a clean design, featuring a navigation header, hero section with call-to-action buttons, and shopping platform integration indicators.",
-      image: "https://via.placeholder.com/400x250?text=Brand+Page", // Placeholder
+      description:
+        "This is a modern, responsive shoe brand landing page with a clean design, featuring a navigation header, hero section with call-to-action buttons, and shopping platform integration indicators.",
+      image: BrandPage,
       tags: ["HTML", "CSS" ,"JavaScript"],
       github: "https://github.com/Ajaykapasiya/Brand-page",
       webapp: "",
     },
     {
-      id: 4,
+     id: 4,
       title: "Employee Management System",
-      description: "This is a React-based Employee Management System with role-based dashboards for admins and employees to manage and track tasks within an organization.",
-      image: "https://via.placeholder.com/400x250?text=Employee+Management", // Placeholder
+      description:
+        "This is a React-based Employee Management System with role-based dashboards for admins and employees to manage and track tasks within an organization.",
+     image: EmployeeManagementSystem,
       tags: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
       github: "https://github.com/Ajaykapasiya/employee-management-system",
       webapp: "",
     },
-  ];
+    
+    /*{
+      id: 5,
+     title: "",
+     description:
+        "",
+      //image: webverLogo,
+      tags: [""],
+      github: "",
+      webapp: "",
+    },
+    {
+      id: 6,
+      title: "",
+      description:
+        "",
+      image: "",
+      tags: [""],
+      github: "",
+      webapp: "",
+    },*/
+    
+  ];  
 
 
+  
