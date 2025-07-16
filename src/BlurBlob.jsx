@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes, { protyType } from 'prop-types'
+import PropTypes from 'prop-types'
 
 const BlurBlob = ({postion , size}) => {
     // Destructure postion and size
