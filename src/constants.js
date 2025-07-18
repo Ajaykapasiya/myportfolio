@@ -1,5 +1,3 @@
-
-
 // Skills Section Logo's
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
@@ -60,6 +58,7 @@ import EmployeeManagementSystem from './assets/work_logo/Employee-management-sys
 import YouTubeClone from './assets/work_logo/YouTube_clone.png';
 import BrandPage from './assets/work_logo/Brand_page.png';
 import SpotifyClone from './assets/work_logo/Spotify_clone.png';
+import CountryHub from './assets/work_logo/Country_hub.png';
 
 export const SkillsInfo = [
   {
@@ -196,7 +195,7 @@ export const SkillsInfo = [
     
   ];
 
-
+ 
  
   
   export const projects = [
@@ -221,14 +220,14 @@ export const SkillsInfo = [
       webapp: "",
     },
     {
-      id: 2,
-      title: "Brand Page",
+     id: 2,
+      title: "CountryHub",
       description:
-        "This is a modern, responsive shoe brand landing page with a clean design, featuring a navigation header, hero section with call-to-action buttons, and shopping platform integration indicators.",
-      image: BrandPage,
-      tags: ["HTML", "CSS" ,"JavaScript"],
-      github: "https://github.com/Ajaykapasiya/Brand-page",
-      webapp: "",
+        "Country Hub is a modern React web app that offers an interactive world atlas with real-time country data using the REST Countries API.It features search, filtering, and detailed info on population, region, capital, and flags.With React Router, Axios, and a clean dark-themed UI, it ensures a smooth and engaging user experience.",
+      image: CountryHub,
+      tags: ["HTML", "CSS", "JavaScript", "React", "RESTApi", ],
+      github: "https://github.com/Ajaykapasiya/Country_hub",
+     webapp: "https://country-hub-pi.vercel.app/",
     },
     {
        id: 3,
@@ -238,6 +237,16 @@ export const SkillsInfo = [
      image: EmployeeManagementSystem,
       tags: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
       github: "https://github.com/Ajaykapasiya/employee-management-system",
+      webapp: "",
+    },
+    {
+      id: 4,
+      title: "Brand Page",
+      description:
+        "This is a modern, responsive shoe brand landing page with a clean design, featuring a navigation header, hero section with call-to-action buttons, and shopping platform integration indicators.",
+      image: BrandPage,
+      tags: ["HTML", "CSS" ,"JavaScript"],
+      github: "https://github.com/Ajaykapasiya/Brand-page",
       webapp: "",
     },
     /*{
@@ -271,7 +280,6 @@ export const SkillsInfo = [
       webapp: "",
     },*/
     
-  ];  
+  ];
 
 
-  
