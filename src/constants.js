@@ -55,7 +55,7 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 //import removebgLogo from './assets/work_logo/remove_bg.png';
 
 import EmployeeManagementSystem from './assets/work_logo/Employee-management-system.png';
-import YouTubeClone from './assets/work_logo/YouTube_clone.png';
+import YouTubeClone from './assets/work_logo/Youtube_clone.png';
 import BrandPage from './assets/work_logo/Brand_page.png';
 import SpotifyClone from './assets/work_logo/Spotify_clone.png';
 import CountryHub from './assets/work_logo/Country_hub.png';
