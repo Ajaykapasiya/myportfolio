@@ -121,7 +121,7 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
-      //img: webverseLogo,
+      //img: ,
       role: "Fullstack Developer",
       company: "Webverse Digital",
       date: "April 2024 - Present",
@@ -141,7 +141,7 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      //img: agcLogo,
+      //img: ,
       role: "Fullstack Engineer",
       company: "Agumentik Group of Companies",
       date: "July 2023 - March 2024",
@@ -158,7 +158,7 @@ export const SkillsInfo = [
     },
     {
       id: 2,
-     // img: newtonschoolLogo,
+     // img: ,
       role: "Frontend Intern",
       company: "Newton School",
       date: "September 2021 - August 2022",
@@ -177,7 +177,7 @@ export const SkillsInfo = [
   export const education = [
     {
       id: 0,
-      //img: glaLogo,
+      //img: ,
       school: "GNIOT , Greater Noida",
       date: " 2021 - 2025",
       //grade: "7.71 CGPA",
@@ -186,31 +186,14 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      //img: bsaLogo,
+      //img:,
       school: "MRL Senior Secondary school, Delhi",
       date: "2020 -  2021",
       //grade: "73.2%",
       desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
       degree: "CBSE(XII) - PCM with Computer Science",
     },
-    //{
-    //  id: 2,
-    //  //img: vpsLogo,
-    //  school: "Vatsalya Public School Govardhan, Mathura",
-    //  date: "Apr 2017 - March 2018",
-    //  grade: "78%",
-    //  desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-    //  degree: "CBSE(XII) - PCM with Computer Science",
-    //},
-    //{
-    //  id: 3,
-    //  //img: vpsLogo,
-    //  school: "Vatsalya Public School Govardhan, Mathura",
-    //  date: "Apr 2015 - March 2016",
-    //  grade: "87.5%",
-    //  desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-    //  degree: "CBSE(X), Science with Computer Application",
-    //},
+    
   ];
 
 
