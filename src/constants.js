@@ -6,7 +6,7 @@ import cssLogo from './assets/tech_logo/css.png';
 //import sassLogo from './assets/tech_logo/sass.png';
 //import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
-//import angularLogo from './assets/tech_logo/angular.png';
+import angularLogo from './assets/tech_logo/angular.png';
 //import reduxLogo from './assets/tech_logo/redux.png';
 //import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
@@ -15,14 +15,14 @@ import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 //import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 //import springbootLogo from './assets/tech_logo/springboot.png';
 //import nodejsLogo from './assets/tech_logo/nodejs.png';
-//import expressjsLogo from './assets/tech_logo/express.png';
-//import mysqlLogo from './assets/tech_logo/mysql.png';
-//import mongodbLogo from './assets/tech_logo/mongodb.png';
+import expressjsLogo from './assets/tech_logo/express.png';
+import mysqlLogo from './assets/tech_logo/mysql.png';
+import mongodbLogo from './assets/tech_logo/mongodb.png';
 //import firebaseLogo from './assets/tech_logo/firebase.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
 //import javaLogo from './assets/tech_logo/java.png';
-//import pythonLogo from './assets/tech_logo/python.png';
+import pythonLogo from './assets/tech_logo/python.png';
 //import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
@@ -60,7 +60,6 @@ import EmployeeManagementSystem from './assets/work_logo/Employee-management-sys
 import YouTubeClone from './assets/work_logo/YouTube_clone.png';
 import BrandPage from './assets/work_logo/Brand_page.png';
 import SpotifyClone from './assets/work_logo/Spotify_clone.png';
-import CountryHub from './assets/work_logo/Country_hub.png';
 
 export const SkillsInfo = [
   {
@@ -214,33 +213,12 @@ export const SkillsInfo = [
     //},
   ];
 
-   
+
+ 
   
   export const projects = [
     {
       id: 0,
-      title: " YouTube Clone",
-      description:
-        "This project is a YouTube clone built with React and Vite, featuring video search, playback, and browsing functionality using the YouTube API via RapidAPI.",
-      image: YouTubeClone,
-      tags: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS", "RapidAPI"],
-      github: "https://github.com/Ajaykapasiya/yt-clone",
-      webapp: "",
-    },
-    {
-      id: 1,
-      title: "Country_Hub",
-     description:
-        "Country Hub is a modern React web app offering an interactive world atlas with country details like population, region, capital, and flags It features search, filtering, dark theme with gradients, and a responsive design for smooth user experience Built using React Router and Axios, it fetches real-time data from the REST Countries API for seamless navigation and update",
-    image:CountryHub ,
-     tags: ["HTML", "CSS","JavaScript", "React", "Axios", "REST Countries API"],
-     github: "https://github.com/Ajaykapasiya/Country_hub",
-     webapp: "https://country-hub-pi.vercel.app",
-    },
-
-     
-    {
-     id: 2,
      title: "Spotify-Clone",
      description:
         "This is a Spotify Clone built with React and Vite that replicates the core features of Spotify's web interface, including music playback, playlist browsing, and navigation.",
@@ -250,7 +228,17 @@ export const SkillsInfo = [
     webapp: "https://spofity-clone-tzml.vercel.app/",
     },
     {
-      id: 3,
+      id: 1,
+      title: " YouTube Clone",
+      description:
+        "This project is a YouTube clone built with React and Vite, featuring video search, playback, and browsing functionality using the YouTube API via RapidAPI.",
+      image: YouTubeClone,
+      tags: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS", "RapidAPI"],
+      github: "https://github.com/Ajaykapasiya/yt-clone",
+      webapp: "",
+    },
+    {
+      id: 2,
       title: "Brand Page",
       description:
         "This is a modern, responsive shoe brand landing page with a clean design, featuring a navigation header, hero section with call-to-action buttons, and shopping platform integration indicators.",
@@ -260,7 +248,7 @@ export const SkillsInfo = [
       webapp: "",
     },
     {
-     id: 4,
+       id: 3,
       title: "Employee Management System",
       description:
         "This is a React-based Employee Management System with role-based dashboards for admins and employees to manage and track tasks within an organization.",
@@ -269,8 +257,17 @@ export const SkillsInfo = [
       github: "https://github.com/Ajaykapasiya/employee-management-system",
       webapp: "",
     },
-    
     /*{
+      id: 4,
+      title: "",
+     description:
+        "",
+    //image: taskremLogo,
+     tags: [""],
+     github: "",
+     webapp: "",
+    },
+    {
       id: 5,
      title: "",
      description:
