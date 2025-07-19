@@ -217,7 +217,7 @@ export const SkillsInfo = [
       image: YouTubeClone,
       tags: ["HTML", "CSS","JavaScript", "React", "Tailwind CSS", "RapidAPI"],
       github: "https://github.com/Ajaykapasiya/yt-clone",
-      webapp: "",
+      webapp: "https://yt-clone-liard.vercel.app/",
     },
     {
      id: 2,
