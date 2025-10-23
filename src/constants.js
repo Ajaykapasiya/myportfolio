@@ -14,7 +14,7 @@ import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 //import springbootLogo from './assets/tech_logo/springboot.png';
 //import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
-import mysqlLogo from './assets/tech_logo/mysql.png';
+import sqlLogo from './assets/tech_logo/sql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 //import firebaseLogo from './assets/tech_logo/firebase.png';
 import cLogo from './assets/tech_logo/c.png';
@@ -84,8 +84,8 @@ export const SkillsInfo = [
       //{ name: 'Springboot', logo: springbootLogo },
       //{ name: 'Node JS', logo: nodejsLogo },
       //{ name: 'Express JS', logo: expressjsLogo },
-      //{ name: 'MySQL', logo: mysqlLogo },
-      //{ name: 'MongoDB', logo: mongodbLogo },
+      { name: 'MySQL', logo: sqlLogo },
+      { name: 'MongoDB', logo: mongodbLogo },
      // { name: 'Firebase', logo: firebaseLogo },
      // { name: 'PostgreSQL', logo: postgreLogo },
     ],
@@ -96,7 +96,7 @@ export const SkillsInfo = [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
       //{ name: 'Java', logo: javaLogo },
-      //{ name: 'Python', logo: pythonLogo },
+      { name: 'Python', logo: pythonLogo },
       //{ name: 'C-Sharp', logo: csharpLogo },
       //{ name: 'JavaScript', logo: javascriptLogo },
       //{ name: 'TypeScript', logo: typescriptLogo },
