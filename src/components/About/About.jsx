@@ -41,7 +41,8 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-          I'm Ajay Kumar, a passionate and detail-oriented Full Stack Developer with a strong foundation in both frontend and backend technologies. On the frontend, I specialize in building responsive, user-friendly interfaces using React.js, Tailwind CSS, and JavaScript. On the backend, I work with Node.js, Express, and MongoDB to create robust and scalable APIs and applications
+          I'm Ajay Kumar, a passionate and detail-oriented  Developer with a strong foundation in frontend technologies. On the frontend, I specialize in building responsive, user-friendly interfaces using React.js, Tailwind CSS, and JavaScript. 
+          {/*On the backend, I work with Node.js, Express, and MongoDB to create robust and scalable APIs and applications*/}
           </p>
           {/* Resume Button */}
           <a
